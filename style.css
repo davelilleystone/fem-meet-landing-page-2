@@ -1,0 +1,33 @@
+:root {
+  /* Colours */
+
+  --color__cyan-300: #8fe3f9;
+  --color__cyan-600: #4d96a9;
+  --color__purple-300: #d9b8ff;
+  --color__purple-600: #855fb1;
+  --color__slate-300: #d1d1df;
+  --color__slate-600: #87879d;
+  --color__slate-900: #28283d;
+  --color__white: #fafafa;
+
+  /* Font Weights */
+  --font-weight-semi: 500;
+  --font-weight-black: 900;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: var(--white);
+  font-family: "Red Hat Display", sans-serif;
+}
+
+/* Layout */
