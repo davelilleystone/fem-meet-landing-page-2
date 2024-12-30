@@ -21,67 +21,82 @@
     <title>Frontend Mentor | Meet landing page</title>
   </head>
   <body>
-    <header>
-      <img
-        class="header-logo"
-        src="./assets/logo.svg"
-        alt="meet chat app logo"
-        width="118"
-        height="28"
-      />
-      <img
-        src="./assets/tablet/image-hero.png"
-        alt="circular head shots of men and women"
-      />
-      <!-- TODO: Add desktop right and left images, these will be hidden in mobile view -->
-      <h1>Group Chat for Everyone</h1>
-      <p>
-        Meet makes it easy to connect with others face-to-face virtually and
-        collaborate across any device.
-      </p>
-      <a href="#">Download <span>v1.3</span></a>
-      <a href="#">What is it?</a>
-    </header>
+    <div class="page-wrapper">
+      <header>
+        <div class="logo-container">
+          <img
+            class="header-logo"
+            src="./assets/logo.svg"
+            alt="meet chat app logo"
+            width="118"
+            height="28"
+          />
+        </div>
+        <div class="mobile-hero-wrapper">
+          <img
+            src="./assets/tablet/image-hero.png"
+            alt="circular head shots of men and women"
+          />
+        </div>
 
-    <main>
-      <div>
-        <div></div>
-        <div>01</div>
-      </div>
-      <img
-        src="./assets/desktop/image-woman-in-videocall.jpg"
-        alt="Woman in videocall on her Macbook"
-      />
-      <img
-        src="./assets/desktop/image-women-videochatting.jpg"
-        alt="Three women having a video call on the middle woman's mobile phone"
-      /><img
-        src="./assets/desktop/image-men-in-meeting.jpg"
-        alt="A man sitting at a desk is on a video call using his laptop to another man who is visible on his screen"
-      /><img
-        src="./assets/desktop/image-man-texting.jpg"
-        alt="A man sitting on a sofa while looking at his screen"
-      />
-      <p>Built for modern use</p>
-      <h2>Smarter meetings, all in one place</h2>
-      <p>
-        Send messages, share files, show your screen, and record your meetings —
-        all in one workspace. Control who can join with invite-only team access,
-        data encryption, and data export.
-      </p>
-    </main>
-    <footer>
-      <!-- TODO: Add footer background image with CSS -->
-      <div>
-        <div></div>
-        <div>02</div>
-      </div>
-      <h2>Experience more together</h2>
-      <p>
-        Stay connected with reliable HD meetings and unlimited one-on-one and
-        group video sessions.
-      </p>
-      <a href="#">Download <span>v1.3</span></a>
-    </footer>
+        <!-- TODO: Add desktop right and left images, these will be hidden in mobile view -->
+        <h1>Group Chat for Everyone</h1>
+        <p class="p-text">
+          Meet makes it easy to connect with others face-to-face virtually and
+          collaborate across any device.
+        </p>
+        <div class="header-button-container">
+          <a class="btn btn-cyan" href="#"
+            >Download <span class="btn-accent-cyan">v1.3</span></a
+          >
+          <a class="btn btn-purple" href="#">What is it?</a>
+        </div>
+      </header>
+      <main>
+        <div class="numbered-divider">
+          <div></div>
+          <div>01</div>
+        </div>
+
+        <div class="main-image-container">
+          <img
+            src="./assets/desktop/image-woman-in-videocall.jpg"
+            alt="Woman in videocall on her Macbook"
+          />
+          <img
+            src="./assets/desktop/image-women-videochatting.jpg"
+            alt="Three women having a video call on the middle woman's mobile phone"
+          /><img
+            src="./assets/desktop/image-men-in-meeting.jpg"
+            alt="A man sitting at a desk is on a video call using his laptop to another man who is visible on his screen"
+          /><img
+            src="./assets/desktop/image-man-texting.jpg"
+            alt="A man sitting on a sofa while looking at his screen"
+          />
+        </div>
+        <p>Built for modern use</p>
+        <h2>Smarter meetings, all in one place</h2>
+        <p class="p-text">
+          Send messages, share files, show your screen, and record your meetings
+          — all in one workspace. Control who can join with invite-only team
+          access, data encryption, and data export.
+        </p>
+      </main>
+      <footer>
+        <!-- TODO: Add footer background image with CSS -->
+        <div class="numbered-divider bottom-divider">
+          <div></div>
+          <div>02</div>
+        </div>
+        <h2>Experience more together</h2>
+        <p class="p-text">
+          Stay connected with reliable HD meetings and unlimited one-on-one and
+          group video sessions.
+        </p>
+        <a class="btn btn-purple" href="#"
+          >Download <span class="btn-accent-purple">v1.3</span></a
+        >
+      </footer>
+    </div>
   </body>
 </html>
